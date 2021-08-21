@@ -1,10 +1,21 @@
 .video__iframe {
  margin-right: 20px;
- width: 560px;
  height: 315px;
  border: 0;
 }
 
 .video__iframe:nth-child(even) {
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .video__iframe {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__iframe {
+    width: 370px;
+  }
 }

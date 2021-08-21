@@ -4,9 +4,22 @@
   justify-content: center;
   margin: 0;
   padding-left: 64px;
-  max-width: 730px;
   z-index: 2;
-  line-height: 96px;
-  font-size: 102px;
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .header__title {
+    max-width: 730px;
+    line-height: 96px;
+    font-size: 102px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    max-width: 550px;
+    line-height: 86px;
+    font-size: 65px;
+  }
 }

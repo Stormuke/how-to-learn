@@ -1,4 +1,13 @@
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
+@media screen and (min-width: 768px) {
+  .two-columns__main-text {
+    width: 80%;
+    min-width: 784px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .two-columns__main-text {
+    width: 65%;
+    min-width: 600px;
+  }
+}
