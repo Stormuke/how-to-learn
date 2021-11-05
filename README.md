@@ -6,6 +6,5 @@
 В проекте использованы HTML5 и CSS3. 
 Применены CSS Flexbox, BEM.
 Файловая система организована по Nested BEM.
-Полный адаптив под мобильные устройства.
 
 https://stormuke.github.io/how-to-learn
